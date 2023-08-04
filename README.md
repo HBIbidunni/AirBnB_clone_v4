@@ -173,8 +173,7 @@ No known bugs at this time.
 - Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 - Tiamiyu Sodiq - [Github](https://github.com/sodex4real11)/ [Twitter](https://twitter.com/sodex4real11)
 - Oyindamola Ibis - [Github](https://github.com/HBIbidunni)/ [G-mail](https://mail.google.com/ayodunibidunni@gmail.com)
-
-
+- Oluwaseyi Salami - [Github](https://github.com/Pinerealm)/ [Twitter](https://twitter.com/pinerealmz)
 
 Second part of Airbnb: Joann Vuong
 ## License
