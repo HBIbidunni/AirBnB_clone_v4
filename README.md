@@ -1,12 +1,11 @@
-# The AirBnB Clone - RESTful API
+# The AirBnB Clone - Web dynamic
 ---------
 
-![AirBnB Logo](https://ichef.bbci.co.uk/news/976/cpsprodpb/B38D/production/_109556954_airbnb.png)
+![AirBnB Logo](https://www.lerevenu.com/sites/site/files/styles/img_lg/public/bf5268db3c56e7acf40210597d16fa56d62f5072_0.jpg?itok=uHFbl67r)
 
-The AirBnB Clone - RESTful API is a flask-based web application that follows the Model-View-Controller (MVC) architectural pattern. 
-It provides a RESTful API to handle various operations related to users, places, reviews, bookings, and more. 
-The project is divided into multiple modules to keep the code organized and maintainable. 
-The goal of this AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB).
+__The AirBnB Clone - Web Dynamic__ aims to provide users with an engaging and interactive platform to search, 
+view, and book properties for their vacation stays. By leveraging modern web technologies 
+and frontend frameworks, this project enhances the user experience and offers real-time updates and visual feedback.
 
 ## Table of Content
 * [Environment](#environment)
@@ -21,10 +20,11 @@ The goal of this AirBnB project is to eventually deploy our server a simple copy
 
 ## Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3).
-To run the AirBnB Clone - RESTful API, you need the following software installed on your system:
+To run the __AirBnB Clone - Web dynamic__, you need the following software installed on your system:
 
 * Python 3.x
-* Flask
+* Flasgger
+* JQuery
 * SQLAlchemy
 * SQLite (for local development)
 
@@ -35,12 +35,11 @@ To run the AirBnB Clone - RESTful API, you need the following software installed
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
 ## Features
-* User registration and authentication.
-* Listing and managing properties (places) for rent.
-* Writing and managing reviews for properties.
-* Booking properties for specific dates.
-* User-friendly search and filtering options.
-* Admin dashboard to manage users and properties.
+* Dynamic property search with live filtering.
+* Interactive property maps and location-based searches.
+* Real-time booking availability and instant confirmation.
+* User-friendly interfaces for property owners and renters.
+* Responsive design for seamless mobile and desktop experiences.
 
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
