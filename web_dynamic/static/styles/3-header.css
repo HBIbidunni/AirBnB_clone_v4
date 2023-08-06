@@ -1,15 +1,6 @@
 header {
-    width: 100%;
-    background-color: white;
+    background: white url(../images/logo.png) no-repeat 20px center;
     height: 70px;
+    width: 100%;
     border-bottom: 1px solid #CCCCCC;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 142px;
-    height: 60px;
-    background: url("../images/logo.png") no-repeat center;
-    padding-left: 20px;
 }
