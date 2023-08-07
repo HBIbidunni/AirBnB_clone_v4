@@ -10,12 +10,10 @@ from api.v1.views import app_views
 
 
 app = Flask(__name__)
-'''The Flask web application instance.'''
-# app_host = os.getenv('HBNB_API_HOST', '0.0.0.0')
-# app_port = int(os.getenv('HBNB_API_PORT', '5000'))
+"""The API app"""
 app.url_map.strict_slashes = False
 app.register_blueprint(app_views)
-cors = CORS(app, resources={r"/api/v1/*": {"origins": "*"}})
+CORS(app, resources={r"/api/v1/*": {"origins": "*"}})
 
 
 @app.teardown_appcontext

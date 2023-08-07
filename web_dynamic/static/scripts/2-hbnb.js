@@ -17,7 +17,7 @@ $(function () {
 // Otherwise, remove the class available to the DIV#api_status
 $( window ).on( "load", function() {
   $.get('http://0.0.0.0:5001/api/v1/status/', function (data, textStatus) {
-    if (textStatus !== 'success') {
+    if (textStatus === 'success') {
       if (data.status === 'OK') {
         $('#api_status').addClass('available');
       } else {

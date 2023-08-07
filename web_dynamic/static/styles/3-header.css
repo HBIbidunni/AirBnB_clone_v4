@@ -16,5 +16,5 @@ header {
 }
 
 .available {
-    background-color: #FF545F;
+    background-color: #FF545F !important;
 }
