@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-starts a Flask web application
+"""The 1-hbnb module
 """
 from uuid import uuid4
 
